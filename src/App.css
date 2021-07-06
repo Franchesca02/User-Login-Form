@@ -40,7 +40,7 @@ body {
     width: 50%;
     background-color: black;
     position: absolute;
-    bottom: 100px;
+    bottom: 200px;
     /* right: 200px; */
     
 }
@@ -87,16 +87,59 @@ input {
     border: 1px solid rgb(53, 52, 52);
     border-radius: 6px;
 }
-@media only screen and(max-width: 600px) {
+ @media only screen and (max-width: 600px) {
     body {
-        overflow: hidden;
+        /* overflow: hidden; */
+    }
+    .home {
+        display: grid;
+        width: 100%;
+        margin-bottom: 0;
     }
     .left {
         width: 100%;
-        /* display: flex; */
-        flex-wrap: wrap;
+        /* padding-bottom: 50px; */
     }
-    .home {
+    .right {
         width: 100%;
+        margin-bottom: 2px;
     }
+    .sign-up {
+        width: 60%;
+        margin: 15px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+    }
+    .black {
+        display: none;
+    }
+    .welcome {
+        font-size: 18px;
+        text-align: left;
+    }
+    .atomic img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .texts {
+        padding-top: 2px;
+        /* margin: 15px; */
+    }
+    .account {
+        font-size: 18px;
+    }
+    .passwd {
+        font-size: 16px;
+        color: black;
+    }
+    input {
+        font-size: 16px;
+        height: 35px;
+    }
+    button{
+        width: 100%;
+        font-size: 16px;
+        background-color: rgb(139, 111, 98);
+    }
+    
 }
