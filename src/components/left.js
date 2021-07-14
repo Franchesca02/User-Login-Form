@@ -6,8 +6,8 @@ class Left extends React.Component {
     constructor(props) {
         super(props);
         this.state = { value: '' }
-        // this.handleChange = this.handleChange.bind(this)
-        // this.submitChange = this.submitChange.bind(this)
+        // this.handleChange = this.handleChange(this)
+        // this.submitChange = this.submitChange(this)
     }
     render() {
 
