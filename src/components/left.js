@@ -26,7 +26,7 @@ class Left extends React.Component {
             
             
             <div className="black">
-                    <p>Hidden texts</p>
+                    {/* <p>Hidden texts</p> */}
                 </div> 
             </div>
         );
