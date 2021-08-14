@@ -111,9 +111,9 @@ input {
         /* padding-bottom: 50px; */
     }
     .right {
-        width: 85%;
+        width: 78%;
         margin-bottom: 2px;
-        margin: 0 auto;
+        margin-left: 120px;
     }
     .sign-up {
         width: 60%;
